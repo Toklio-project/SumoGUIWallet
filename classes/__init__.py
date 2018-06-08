@@ -84,12 +84,12 @@ class WalletInfo():
 class AppSettings():
     settings = {
         "daemon": {
-            "log_level": 0,
+            "log_level": 1,
             "block_sync_size": 10
         },
         
         "blockchain": {
-            "height": 0,
+            "height": 1,
         }
     }
     

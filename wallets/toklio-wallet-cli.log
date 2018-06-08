@@ -1,0 +1,126 @@
+2018-06-07 08:01:00.592	2184	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:WARNING,net:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2018-06-07 08:01:00.592	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	This is the command line toklio wallet. It needs to connect to a toklio
+daemon to work correctly.
+WARNING: Do not reuse your Toklio keys on an another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.
+
+2018-06-07 08:01:00.593	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Toklio 'Hydrogene' (v0.1.0-master-04546862)
+2018-06-07 08:01:00.594	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Logging to C:\ProgramData\ToklioGUIWallet\wallets\toklio-wallet-cli.log
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'asa' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'ave' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'boa' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'cal' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'dar' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'don' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'dos' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'eco' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'eje' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'fax' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'feo' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'fin' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'gen' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'gol' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'haz' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'ira' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'luz' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'mar' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'mes' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'mil' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'oca' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'ojo' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'ola' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'oro' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'oso' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'pan' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'pez' is shorter than its prefix length, 4
+2018-06-07 08:01:00.811	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'pie' is shorter than its prefix length, 4
+2018-06-07 08:01:00.812	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'red' is shorter than its prefix length, 4
+2018-06-07 08:01:00.812	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'res' is shorter than its prefix length, 4
+2018-06-07 08:01:00.812	2184	WARN 	default	src/mnemonics/language_base.h:102	Español word 'rey' is shorter than its prefix length, 4
+2018-06-07 08:01:01.680	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Generated new wallet: TK3B5CvFZ9v6Ld7owzC8ULLH6qKk5iSmG7VJg96pnjdtME5ym6eeWhH3JnJvR4JJC8DcMkhrWKqBHSFvL9TdcrGk1fJu9LCHJ
+2018-06-07 08:01:01.680	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	**********************************************************************
+Your wallet has been generated!
+To start synchronizing with the daemon, use the "refresh" command.
+Use the "help" command to see the list of available commands.
+Use "help <command>" to see a command's documentation.
+Always use the "exit" command when closing toklio-wallet-cli to save 
+your current session's state. Otherwise, you might need to synchronize 
+your wallet again (your wallet keys are NOT at risk in any case).
+
+2018-06-07 08:01:01.680	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	
+NOTE: the following 25 words can be used to recover access to your wallet. Write them down and store them somewhere safe and secure. Please do not store them in your email or on file storage services outside of your immediate control.
+
+2018-06-07 08:01:01.680	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	**********************************************************************
+2018-06-07 08:01:01.682	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Starting refresh...
+2018-06-07 08:01:01.716	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Refresh done, blocks received: 0
+2018-06-07 08:01:01.716	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Untagged accounts:
+2018-06-07 08:01:01.716	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	          Account               Balance      Unlocked balance                 Label
+2018-06-07 08:01:01.716	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	 *       0 TK3B5C        0.000000000000        0.000000000000       Primary account
+2018-06-07 08:01:01.716	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	----------------------------------------------------------------------------------
+2018-06-07 08:01:01.716	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	          Total        0.000000000000        0.000000000000
+2018-06-07 08:01:01.716	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Currently selected account: [0] Primary account
+2018-06-07 08:01:01.716	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Tag: (No tag assigned)
+2018-06-07 08:01:01.716	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Balance: 0.000000000000, unlocked balance: 0.000000000000
+2018-06-07 08:01:01.716	2184	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Background refresh thread started
+2018-06-07 08:07:45.324	19292	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:WARNING,net:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2018-06-07 08:07:45.325	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	This is the command line toklio wallet. It needs to connect to a toklio
+daemon to work correctly.
+WARNING: Do not reuse your Toklio keys on an another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.
+
+2018-06-07 08:07:45.325	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Toklio 'Hydrogene' (v0.1.0-master-04546862)
+2018-06-07 08:07:45.326	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Logging to C:\ProgramData\ToklioGUIWallet\wallets\toklio-wallet-cli.log
+2018-06-07 08:07:45.539	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'asa' is shorter than its prefix length, 4
+2018-06-07 08:07:45.539	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'ave' is shorter than its prefix length, 4
+2018-06-07 08:07:45.539	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'boa' is shorter than its prefix length, 4
+2018-06-07 08:07:45.539	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'cal' is shorter than its prefix length, 4
+2018-06-07 08:07:45.539	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'dar' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'don' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'dos' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'eco' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'eje' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'fax' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'feo' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'fin' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'gen' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'gol' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'haz' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'ira' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'luz' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'mar' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'mes' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'mil' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'oca' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'ojo' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'ola' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'oro' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'oso' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'pan' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'pez' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'pie' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'red' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'res' is shorter than its prefix length, 4
+2018-06-07 08:07:45.540	19292	WARN 	default	src/mnemonics/language_base.h:102	Español word 'rey' is shorter than its prefix length, 4
+2018-06-07 08:07:46.466	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Generated new wallet: TK3eB1Skux4bRPWbHBHCdJc78m5h4gtCfYrtip6YwCXLAwR7wFFpmzAaRjNCTaWbjkQK1oz2mdFh1Y6VwotQmxFD2tympm7Tn
+2018-06-07 08:07:46.466	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	**********************************************************************
+Your wallet has been generated!
+To start synchronizing with the daemon, use the "refresh" command.
+Use the "help" command to see the list of available commands.
+Use "help <command>" to see a command's documentation.
+Always use the "exit" command when closing toklio-wallet-cli to save 
+your current session's state. Otherwise, you might need to synchronize 
+your wallet again (your wallet keys are NOT at risk in any case).
+
+2018-06-07 08:07:46.466	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	
+NOTE: the following 25 words can be used to recover access to your wallet. Write them down and store them somewhere safe and secure. Please do not store them in your email or on file storage services outside of your immediate control.
+
+2018-06-07 08:07:46.466	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	**********************************************************************
+2018-06-07 08:07:46.468	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Starting refresh...
+2018-06-07 08:07:46.503	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Refresh done, blocks received: 0
+2018-06-07 08:07:46.503	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Untagged accounts:
+2018-06-07 08:07:46.503	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	          Account               Balance      Unlocked balance                 Label
+2018-06-07 08:07:46.503	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	 *       0 TK3eB1        0.000000000000        0.000000000000       Primary account
+2018-06-07 08:07:46.503	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	----------------------------------------------------------------------------------
+2018-06-07 08:07:46.503	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	          Total        0.000000000000        0.000000000000
+2018-06-07 08:07:46.503	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Currently selected account: [0] Primary account
+2018-06-07 08:07:46.503	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Tag: (No tag assigned)
+2018-06-07 08:07:46.503	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Balance: 0.000000000000, unlocked balance: 0.000000000000
+2018-06-07 08:07:46.503	19292	INFO 	msgwriter	src/common/scoped_message_writer.h:102	Background refresh thread started

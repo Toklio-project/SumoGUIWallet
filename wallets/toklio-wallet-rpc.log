@@ -1,0 +1,1298 @@
+2018-06-07 08:01:05.447	9920	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:WARNING,net:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2018-06-07 08:01:05.447	9920	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:INFO,global:INFO,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2018-06-07 08:01:05.447	9920	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:192	Setting log level = 1
+2018-06-07 08:01:05.447	9920	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:195	Logging to: C:\ProgramData\ToklioGUIWallet\wallets\toklio-wallet-rpc.log
+2018-06-07 08:01:05.453	9920	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2948	Loading wallet...
+2018-06-07 08:01:05.630	9920	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5526	ringdb path set to C:\ProgramData\.shared-ringdb
+2018-06-07 08:01:05.658	9920	WARN 	wallet.wallet2	src/wallet/wallet2.cpp:3762	Loaded wallet keys file, with public address: TK3B5CvFZ9v6Ld7owzC8ULLH6qKk5iSmG7VJg96pnjdtME5ym6eeWhH3JnJvR4JJC8DcMkhrWKqBHSFvL9TdcrGk1fJu9LCHJ
+2018-06-07 08:01:05.660	9920	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:3781	Trying to decrypt cache data
+2018-06-07 08:01:05.728	9920	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5691	Found and saved rings for 0 transactions
+2018-06-07 08:01:05.734	9920	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:01:05.734	9920	INFO 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2986	Successfully loaded
+2018-06-07 08:01:05.734	9920	INFO 	net	contrib/epee/include/net/abstract_tcp_server2.inl:802	Set server type to: 1 from name: RPC, prefix_name = RPC
+2018-06-07 08:01:05.734	9920	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:18085
+2018-06-07 08:01:05.735	9920	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3001	Starting wallet RPC server
+2018-06-07 08:01:05.735	9920	INFO 	net.http	contrib/epee/include/net/http_server_impl_base.h:89	Run net_service loop( 1 threads)...
+2018-06-07 08:01:25.736	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:01:45.737	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:02:05.738	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:02:25.739	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:02:45.740	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:03:05.741	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:03:54.042	17432	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:WARNING,net:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2018-06-07 08:03:54.042	17432	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:TRACE
+2018-06-07 08:03:54.043	17432	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:192	Setting log level = 4
+2018-06-07 08:03:54.043	17432	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:195	Logging to: C:\ProgramData\ToklioGUIWallet\wallets\toklio-wallet-rpc.log
+2018-06-07 08:03:54.044	17432	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2948	Loading wallet...
+2018-06-07 08:03:54.224	17432	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5526	ringdb path set to C:\ProgramData\.shared-ringdb
+2018-06-07 08:03:54.251	17432	WARN 	wallet.wallet2	src/wallet/wallet2.cpp:3762	Loaded wallet keys file, with public address: TK3B5CvFZ9v6Ld7owzC8ULLH6qKk5iSmG7VJg96pnjdtME5ym6eeWhH3JnJvR4JJC8DcMkhrWKqBHSFvL9TdcrGk1fJu9LCHJ
+2018-06-07 08:03:54.252	17432	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:3781	Trying to decrypt cache data
+2018-06-07 08:03:54.308	17432	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:5634	Finding and saving rings...
+2018-06-07 08:03:54.308	17432	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:5646	Found 0 transactions
+2018-06-07 08:03:54.321	17432	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5691	Found and saved rings for 0 transactions
+2018-06-07 08:03:54.322	17432	DEBUG	net.http	contrib/epee/include/net/http_client.h:365	Reconnecting...
+2018-06-07 08:03:54.326	17432	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 160
+2018-06-07 08:03:54.326	17432	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:03:54.327	17432	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 127
+2018-06-07 08:03:54.327	17432	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:03:54.327	17432	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:03:54.327	17432	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:03:54.327	17432	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:03:54.328	17432	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: ba096634a86cc49b03c4c8df9529ccdaec997b7037f80f4153a6919e7c4ab288
+2018-06-07 08:03:54.328	11508	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:03:54.328	11508	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:03:54.328	11508	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:03:54.328	11508	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:03:54.328	17432	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:03:54.328	17432	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:03:54.328	17432	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:03:54.328	17432	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:03:54.328	17432	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:03:54.328	17432	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:03:54.328	17432	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:03:54.328	17432	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:03:54.328	17432	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:03:54.328	17432	INFO 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2986	Successfully loaded
+2018-06-07 08:03:54.328	17432	INFO 	net	contrib/epee/include/net/abstract_tcp_server2.inl:802	Set server type to: 1 from name: RPC, prefix_name = RPC
+2018-06-07 08:03:54.329	17432	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:18085
+2018-06-07 08:03:54.329	17432	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:731	start accept
+2018-06-07 08:03:54.330	17432	DEBUG	net.p2p	contrib/epee/src/connection_basic.cpp:163	Spawned connection p2p#0 to 0.0.0.0 currently we have sockets count:1
+2018-06-07 08:03:54.330	17432	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:83	test, connection constructor set m_connection_type=1
+2018-06-07 08:03:54.330	17432	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3001	Starting wallet RPC server
+2018-06-07 08:03:54.330	17432	INFO 	net.http	contrib/epee/include/net/http_server_impl_base.h:89	Run net_service loop( 1 threads)...
+2018-06-07 08:03:54.330	[SRV_MAIN]	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:827	Run server thread name: RPC
+2018-06-07 08:03:54.330	[SRV_MAIN]	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:834	JOINING all threads
+2018-06-07 08:04:14.330	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:04:14.330	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:04:14.330	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:04:14.330	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:04:14.330	11508	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:04:14.330	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: ba096634a86cc49b03c4c8df9529ccdaec997b7037f80f4153a6919e7c4ab288
+2018-06-07 08:04:14.331	11508	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:04:14.331	11508	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:04:14.331	11508	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:04:14.331	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:04:14.331	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:04:14.331	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:04:14.331	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:04:14.331	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:04:14.331	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:04:14.331	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:04:14.331	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:04:14.331	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:04:34.332	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:04:34.332	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:04:34.333	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:04:34.333	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:04:34.333	18364	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:04:34.333	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: ba096634a86cc49b03c4c8df9529ccdaec997b7037f80f4153a6919e7c4ab288
+2018-06-07 08:04:34.333	18364	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:04:34.334	18364	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:04:34.334	18364	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:04:34.334	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:04:34.334	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:04:34.334	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:04:34.334	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:04:34.334	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:04:34.334	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:04:34.334	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:04:34.334	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:04:34.334	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:04:54.334	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:04:54.334	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:04:54.334	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:04:54.334	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:04:54.334	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: ba096634a86cc49b03c4c8df9529ccdaec997b7037f80f4153a6919e7c4ab288
+2018-06-07 08:04:54.334	18456	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:04:54.334	18456	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:04:54.334	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <bd5ab80693444990d97bee05486bc5c57d863e74e67c9b5368d4f422f7866643>, height 28441, 0(0/0)ms
+2018-06-07 08:04:54.334	18456	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:04:54.335	18456	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:04:54.335	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:04:54.335	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:04:54.335	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:04:54.335	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:04:54.335	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:04:54.335	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:04:54.335	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:04:54.335	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:04:54.335	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:05:14.335	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:05:14.335	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:05:14.335	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:05:14.336	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:05:14.336	17480	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:05:14.336	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: bd5ab80693444990d97bee05486bc5c57d863e74e67c9b5368d4f422f7866643
+2018-06-07 08:05:14.336	17480	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:05:14.336	17480	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:05:14.336	17480	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:05:14.336	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:05:14.336	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:05:14.336	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:05:14.336	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:05:14.336	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:05:14.336	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:05:14.336	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:05:14.336	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:05:14.336	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:05:34.337	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:05:34.337	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:05:34.337	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:05:34.337	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:05:34.337	17544	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:05:34.337	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: bd5ab80693444990d97bee05486bc5c57d863e74e67c9b5368d4f422f7866643
+2018-06-07 08:05:34.337	17544	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:05:34.337	17544	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:05:34.338	17544	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:05:34.338	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:05:34.338	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:05:34.338	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:05:34.338	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:05:34.338	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:05:34.338	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:05:34.338	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:05:34.338	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:05:34.338	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:06:14.065	14744	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:WARNING,net:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2018-06-07 08:06:14.065	14744	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:TRACE
+2018-06-07 08:06:14.065	14744	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:192	Setting log level = 4
+2018-06-07 08:06:14.065	14744	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:195	Logging to: C:\ProgramData\ToklioGUIWallet\wallets\toklio-wallet-rpc.log
+2018-06-07 08:06:14.066	14744	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2948	Loading wallet...
+2018-06-07 08:06:14.242	14744	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5526	ringdb path set to C:\ProgramData\.shared-ringdb
+2018-06-07 08:06:14.272	14744	WARN 	wallet.wallet2	src/wallet/wallet2.cpp:3762	Loaded wallet keys file, with public address: TK3B5CvFZ9v6Ld7owzC8ULLH6qKk5iSmG7VJg96pnjdtME5ym6eeWhH3JnJvR4JJC8DcMkhrWKqBHSFvL9TdcrGk1fJu9LCHJ
+2018-06-07 08:06:14.274	14744	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:3781	Trying to decrypt cache data
+2018-06-07 08:06:14.351	14744	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:5634	Finding and saving rings...
+2018-06-07 08:06:14.351	14744	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:5646	Found 0 transactions
+2018-06-07 08:06:14.364	14744	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5691	Found and saved rings for 0 transactions
+2018-06-07 08:06:14.365	14744	DEBUG	net.http	contrib/epee/include/net/http_client.h:365	Reconnecting...
+2018-06-07 08:06:14.370	14744	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 160
+2018-06-07 08:06:14.370	14744	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:06:14.370	14744	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 127
+2018-06-07 08:06:14.370	14744	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:06:14.370	14744	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:06:14.370	14744	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:06:14.370	14744	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:06:14.370	14744	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: ba096634a86cc49b03c4c8df9529ccdaec997b7037f80f4153a6919e7c4ab288
+2018-06-07 08:06:14.370	9112	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:06:14.370	14744	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <bd5ab80693444990d97bee05486bc5c57d863e74e67c9b5368d4f422f7866643>, height 28441, 0(0/0)ms
+2018-06-07 08:06:14.370	9112	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:06:14.371	9112	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:06:14.371	9112	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:06:14.371	14744	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:06:14.371	14744	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:06:14.371	14744	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:06:14.371	14744	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:06:14.371	14744	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:06:14.371	14744	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:06:14.371	14744	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:06:14.371	14744	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:06:14.371	14744	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:06:14.371	14744	INFO 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2986	Successfully loaded
+2018-06-07 08:06:14.371	14744	INFO 	net	contrib/epee/include/net/abstract_tcp_server2.inl:802	Set server type to: 1 from name: RPC, prefix_name = RPC
+2018-06-07 08:06:14.372	14744	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:18085
+2018-06-07 08:06:14.372	14744	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:731	start accept
+2018-06-07 08:06:14.372	14744	DEBUG	net.p2p	contrib/epee/src/connection_basic.cpp:163	Spawned connection p2p#0 to 0.0.0.0 currently we have sockets count:1
+2018-06-07 08:06:14.372	14744	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:83	test, connection constructor set m_connection_type=1
+2018-06-07 08:06:14.372	14744	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3001	Starting wallet RPC server
+2018-06-07 08:06:14.374	14744	INFO 	net.http	contrib/epee/include/net/http_server_impl_base.h:89	Run net_service loop( 1 threads)...
+2018-06-07 08:06:14.374	[SRV_MAIN]	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:827	Run server thread name: RPC
+2018-06-07 08:06:14.374	[SRV_MAIN]	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:834	JOINING all threads
+2018-06-07 08:07:50.186	15076	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:WARNING,net:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2018-06-07 08:07:50.187	15076	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:INFO,global:INFO,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2018-06-07 08:07:50.187	15076	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:192	Setting log level = 1
+2018-06-07 08:07:50.187	15076	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:195	Logging to: C:\ProgramData\ToklioGUIWallet\wallets\toklio-wallet-rpc.log
+2018-06-07 08:07:50.188	15076	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2948	Loading wallet...
+2018-06-07 08:07:50.366	15076	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5526	ringdb path set to C:\ProgramData\.shared-ringdb
+2018-06-07 08:07:50.396	15076	WARN 	wallet.wallet2	src/wallet/wallet2.cpp:3762	Loaded wallet keys file, with public address: TK3eB1Skux4bRPWbHBHCdJc78m5h4gtCfYrtip6YwCXLAwR7wFFpmzAaRjNCTaWbjkQK1oz2mdFh1Y6VwotQmxFD2tympm7Tn
+2018-06-07 08:07:50.397	15076	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:3781	Trying to decrypt cache data
+2018-06-07 08:07:50.474	15076	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5691	Found and saved rings for 0 transactions
+2018-06-07 08:07:50.480	15076	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:07:50.480	15076	INFO 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2986	Successfully loaded
+2018-06-07 08:07:50.480	15076	INFO 	net	contrib/epee/include/net/abstract_tcp_server2.inl:802	Set server type to: 1 from name: RPC, prefix_name = RPC
+2018-06-07 08:07:50.481	15076	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:18085
+2018-06-07 08:07:50.481	15076	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3001	Starting wallet RPC server
+2018-06-07 08:07:50.482	15076	INFO 	net.http	contrib/epee/include/net/http_server_impl_base.h:89	Run net_service loop( 1 threads)...
+2018-06-07 08:08:10.484	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:08:30.487	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:08:50.489	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:09:10.491	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:09:30.495	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:09:50.497	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:10:10.499	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:10:30.499	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:10:50.499	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:11:10.500	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:11:30.502	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:11:50.503	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:12:22.414	15136	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:WARNING,net:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2018-06-07 08:12:22.414	15136	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:TRACE
+2018-06-07 08:12:22.414	15136	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:192	Setting log level = 4
+2018-06-07 08:12:22.414	15136	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:195	Logging to: C:\ProgramData\ToklioGUIWallet\wallets\toklio-wallet-rpc.log
+2018-06-07 08:12:22.415	15136	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2948	Loading wallet...
+2018-06-07 08:12:22.596	15136	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5526	ringdb path set to C:\ProgramData\.shared-ringdb
+2018-06-07 08:12:22.628	15136	WARN 	wallet.wallet2	src/wallet/wallet2.cpp:3762	Loaded wallet keys file, with public address: TK3eB1Skux4bRPWbHBHCdJc78m5h4gtCfYrtip6YwCXLAwR7wFFpmzAaRjNCTaWbjkQK1oz2mdFh1Y6VwotQmxFD2tympm7Tn
+2018-06-07 08:12:22.629	15136	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:3781	Trying to decrypt cache data
+2018-06-07 08:12:22.683	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:5634	Finding and saving rings...
+2018-06-07 08:12:22.683	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:5646	Found 0 transactions
+2018-06-07 08:12:22.696	15136	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5691	Found and saved rings for 0 transactions
+2018-06-07 08:12:22.697	15136	DEBUG	net.http	contrib/epee/include/net/http_client.h:365	Reconnecting...
+2018-06-07 08:12:22.701	15136	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 160
+2018-06-07 08:12:22.701	15136	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:12:22.702	15136	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 127
+2018-06-07 08:12:22.702	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:12:22.703	15136	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 170
+2018-06-07 08:12:22.703	15136	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:12:22.703	15136	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 1179
+2018-06-07 08:12:22.703	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 4f184af57886b3fbe6ab9c78bf2955bc5e12aea7dc95efe956b4c159ecd69b27
+2018-06-07 08:12:22.703	15480	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:12:22.703	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <6f3953e9e211b27736c1d5c4d1d48d0a24096c9aa112a78837250b9c7058090e>, height 28443, 0(0/0)ms
+2018-06-07 08:12:22.703	15480	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:12:22.703	15480	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:12:22.703	15480	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 642
+2018-06-07 08:12:22.703	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <d77876f2f8b9e6d9ffc4932c6098cf1e46a6ad45f2695ff6097c0e68936585dd>, height 28444, 0(0/0)ms
+2018-06-07 08:12:22.704	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <c1819e0210e0712a016f26503b923a5896fc19aebc5326825e6d3195869f8248>, height 28445, 1(1/0)ms
+2018-06-07 08:12:22.704	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <97b96e61396b6583d0812a2a43eabb11d088b34dd122fe6eeb694d3a8984a442>, height 28446, 0(0/0)ms
+2018-06-07 08:12:22.705	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5>, height 28447, 0(0/0)ms
+2018-06-07 08:12:22.705	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: c1819e0210e0712a016f26503b923a5896fc19aebc5326825e6d3195869f8248
+2018-06-07 08:12:22.705	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 97b96e61396b6583d0812a2a43eabb11d088b34dd122fe6eeb694d3a8984a442
+2018-06-07 08:12:22.705	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5
+2018-06-07 08:12:22.705	18220	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:12:22.705	18220	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:12:22.705	18220	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:12:22.705	18220	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 642
+2018-06-07 08:12:22.705	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:12:22.705	15136	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:12:22.705	15136	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:12:22.705	15136	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:12:22.705	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:12:22.705	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:12:22.705	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:12:22.705	15136	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:12:22.705	15136	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 5, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:12:22.705	15136	INFO 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2986	Successfully loaded
+2018-06-07 08:12:22.706	15136	INFO 	net	contrib/epee/include/net/abstract_tcp_server2.inl:802	Set server type to: 1 from name: RPC, prefix_name = RPC
+2018-06-07 08:12:22.706	15136	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:18085
+2018-06-07 08:12:22.706	15136	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:731	start accept
+2018-06-07 08:12:22.707	15136	DEBUG	net.p2p	contrib/epee/src/connection_basic.cpp:163	Spawned connection p2p#0 to 0.0.0.0 currently we have sockets count:1
+2018-06-07 08:12:22.707	15136	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:83	test, connection constructor set m_connection_type=1
+2018-06-07 08:12:22.707	15136	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3001	Starting wallet RPC server
+2018-06-07 08:12:22.707	15136	INFO 	net.http	contrib/epee/include/net/http_server_impl_base.h:89	Run net_service loop( 1 threads)...
+2018-06-07 08:12:22.707	[SRV_MAIN]	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:827	Run server thread name: RPC
+2018-06-07 08:12:22.707	[SRV_MAIN]	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:834	JOINING all threads
+2018-06-07 08:12:42.708	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:12:42.708	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:12:42.708	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:12:42.708	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:12:42.709	19144	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:12:42.709	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5
+2018-06-07 08:12:42.709	19144	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:12:42.709	19144	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:12:42.709	19144	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:12:42.709	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:12:42.710	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:12:42.710	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:12:42.710	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:12:42.710	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:12:42.710	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:12:42.710	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:12:42.710	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:12:42.710	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:13:02.710	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:13:02.710	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:13:02.710	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:13:02.710	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:13:02.710	15480	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:13:02.710	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5
+2018-06-07 08:13:02.710	15480	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:13:02.710	15480	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:13:02.710	15480	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:13:02.710	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:13:02.711	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:13:02.711	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:13:02.711	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:13:02.711	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:13:02.711	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:13:02.711	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:13:02.711	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:13:02.711	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:13:22.711	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:13:22.711	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:13:22.711	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:13:22.711	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:13:22.711	18792	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:13:22.712	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5
+2018-06-07 08:13:22.712	18792	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:13:22.712	18792	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:13:22.712	18792	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:13:22.712	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:13:22.712	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:13:22.712	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:13:22.712	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:13:22.713	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:13:22.713	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:13:22.713	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:13:22.713	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:13:22.713	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:13:42.714	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:13:42.714	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:13:42.714	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:13:42.714	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:13:42.714	10320	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:13:42.714	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5
+2018-06-07 08:13:42.714	10320	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:13:42.714	10320	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:13:42.714	10320	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:13:42.714	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:13:42.714	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:13:42.715	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:13:42.715	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:13:42.715	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:13:42.715	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:13:42.715	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:13:42.715	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:13:42.715	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:14:02.715	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:14:02.715	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:14:02.715	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:14:02.715	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:14:02.716	19144	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:14:02.716	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5
+2018-06-07 08:14:02.716	19144	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:14:02.716	19144	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:14:02.716	19144	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:14:02.716	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:14:02.717	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:14:02.717	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:14:02.717	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:14:02.717	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:14:02.717	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:14:02.717	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:14:02.717	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:14:02.717	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:14:22.717	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:14:22.717	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:14:22.717	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:14:22.717	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:14:22.717	4420	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:14:22.717	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5
+2018-06-07 08:14:22.717	4420	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:14:22.717	4420	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:14:22.717	4420	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:14:22.717	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:14:22.718	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:14:22.718	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:14:22.718	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:14:22.718	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:14:22.718	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:14:22.718	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:14:22.718	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:14:22.718	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:14:42.719	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:14:42.719	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:14:42.719	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:14:42.719	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:14:42.719	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5
+2018-06-07 08:14:42.720	13820	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:14:42.720	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <ab0eaf1fdc8aa493f6f197d6543ac9598569ede1c23adefe92a6acf3097ef373>, height 28448, 1(1/0)ms
+2018-06-07 08:14:42.720	13820	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:14:42.720	13820	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:14:42.720	13820	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:14:42.720	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:14:42.720	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:14:42.720	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:14:42.720	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:14:42.720	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:14:42.720	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:14:42.720	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:14:42.720	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:14:42.720	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:15:02.720	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:15:02.720	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:15:02.720	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:15:02.720	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:15:02.720	9036	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:15:02.720	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: ab0eaf1fdc8aa493f6f197d6543ac9598569ede1c23adefe92a6acf3097ef373
+2018-06-07 08:15:02.720	9036	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:15:02.720	9036	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:15:02.720	9036	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:15:02.720	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:15:02.720	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:15:02.720	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:15:02.721	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:15:02.721	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:15:02.721	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:15:02.721	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:15:02.721	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:15:02.721	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:15:22.721	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:15:22.721	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:15:22.721	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:15:22.721	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:15:22.721	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: ab0eaf1fdc8aa493f6f197d6543ac9598569ede1c23adefe92a6acf3097ef373
+2018-06-07 08:15:22.721	19144	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:15:22.721	19144	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:15:22.721	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <283e94e641e6a4242a12cd06f9cce166e91d336fcebd2477616aeee8eedaa9fe>, height 28449, 1(1/0)ms
+2018-06-07 08:15:22.721	19144	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:15:22.721	19144	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:15:22.721	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:15:22.722	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:15:22.722	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:15:22.722	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:15:22.722	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:15:22.722	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:15:22.722	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:15:22.722	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:15:22.722	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:15:42.723	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:15:42.723	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:15:42.723	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:15:42.723	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:15:42.723	18792	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:15:42.723	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 283e94e641e6a4242a12cd06f9cce166e91d336fcebd2477616aeee8eedaa9fe
+2018-06-07 08:15:42.724	18792	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:15:42.724	18792	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:15:42.724	18792	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:15:42.724	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:15:42.724	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:15:42.724	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:15:42.724	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:15:42.724	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:15:42.724	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:15:42.724	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:15:42.724	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:15:42.724	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:16:02.725	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:16:02.725	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:16:02.725	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:16:02.725	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:16:02.725	15480	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:16:02.725	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 283e94e641e6a4242a12cd06f9cce166e91d336fcebd2477616aeee8eedaa9fe
+2018-06-07 08:16:02.725	15480	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:16:02.725	15480	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:16:02.725	15480	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:16:02.725	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:16:02.726	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:16:02.726	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:16:02.726	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:16:02.726	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:16:02.726	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:16:02.726	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:16:02.726	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:16:02.726	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:16:22.726	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:16:22.726	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:16:22.726	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:16:22.726	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:16:22.726	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 283e94e641e6a4242a12cd06f9cce166e91d336fcebd2477616aeee8eedaa9fe
+2018-06-07 08:16:22.726	10320	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:16:22.727	10320	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:16:22.727	10320	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:16:22.727	10320	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:16:22.727	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:16:22.727	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:16:22.727	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:16:22.727	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:16:22.727	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:16:22.727	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:16:22.727	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:16:22.727	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:16:22.727	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:16:42.728	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:16:42.728	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:16:42.728	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:16:42.728	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:16:42.728	4420	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:16:42.728	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 283e94e641e6a4242a12cd06f9cce166e91d336fcebd2477616aeee8eedaa9fe
+2018-06-07 08:16:42.728	4420	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:16:42.729	4420	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:16:42.729	4420	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:16:42.729	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:16:42.729	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:16:42.729	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:16:42.729	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:16:42.729	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:16:42.729	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:16:42.729	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:16:42.729	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:16:42.729	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:17:14.158	18732	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:WARNING,net:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2018-06-07 08:17:14.158	18732	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:TRACE
+2018-06-07 08:17:14.159	18732	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:192	Setting log level = 4
+2018-06-07 08:17:14.159	18732	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:195	Logging to: C:\ProgramData\ToklioGUIWallet\wallets\toklio-wallet-rpc.log
+2018-06-07 08:17:14.160	18732	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2948	Loading wallet...
+2018-06-07 08:17:14.339	18732	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5526	ringdb path set to C:\ProgramData\.shared-ringdb
+2018-06-07 08:17:14.367	18732	WARN 	wallet.wallet2	src/wallet/wallet2.cpp:3762	Loaded wallet keys file, with public address: TK3eB1Skux4bRPWbHBHCdJc78m5h4gtCfYrtip6YwCXLAwR7wFFpmzAaRjNCTaWbjkQK1oz2mdFh1Y6VwotQmxFD2tympm7Tn
+2018-06-07 08:17:14.368	18732	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:3781	Trying to decrypt cache data
+2018-06-07 08:17:14.423	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:5634	Finding and saving rings...
+2018-06-07 08:17:14.423	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:5646	Found 0 transactions
+2018-06-07 08:17:14.436	18732	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5691	Found and saved rings for 0 transactions
+2018-06-07 08:17:14.436	18732	DEBUG	net.http	contrib/epee/include/net/http_client.h:365	Reconnecting...
+2018-06-07 08:17:14.441	18732	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 160
+2018-06-07 08:17:14.441	18732	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:17:14.441	18732	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 127
+2018-06-07 08:17:14.441	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:17:14.442	18732	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 170
+2018-06-07 08:17:14.442	18732	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:17:14.442	18732	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 1537
+2018-06-07 08:17:14.442	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 4f184af57886b3fbe6ab9c78bf2955bc5e12aea7dc95efe956b4c159ecd69b27
+2018-06-07 08:17:14.442	14760	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:17:14.442	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <6f3953e9e211b27736c1d5c4d1d48d0a24096c9aa112a78837250b9c7058090e>, height 28443, 0(0/0)ms
+2018-06-07 08:17:14.442	14760	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:17:14.442	14760	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:17:14.442	14760	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 642
+2018-06-07 08:17:14.443	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <d77876f2f8b9e6d9ffc4932c6098cf1e46a6ad45f2695ff6097c0e68936585dd>, height 28444, 0(0/0)ms
+2018-06-07 08:17:14.443	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <c1819e0210e0712a016f26503b923a5896fc19aebc5326825e6d3195869f8248>, height 28445, 0(0/0)ms
+2018-06-07 08:17:14.443	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <97b96e61396b6583d0812a2a43eabb11d088b34dd122fe6eeb694d3a8984a442>, height 28446, 0(0/0)ms
+2018-06-07 08:17:14.443	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5>, height 28447, 0(0/0)ms
+2018-06-07 08:17:14.443	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <ab0eaf1fdc8aa493f6f197d6543ac9598569ede1c23adefe92a6acf3097ef373>, height 28448, 0(0/0)ms
+2018-06-07 08:17:14.444	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <283e94e641e6a4242a12cd06f9cce166e91d336fcebd2477616aeee8eedaa9fe>, height 28449, 1(1/0)ms
+2018-06-07 08:17:14.444	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5
+2018-06-07 08:17:14.444	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: ab0eaf1fdc8aa493f6f197d6543ac9598569ede1c23adefe92a6acf3097ef373
+2018-06-07 08:17:14.444	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 283e94e641e6a4242a12cd06f9cce166e91d336fcebd2477616aeee8eedaa9fe
+2018-06-07 08:17:14.444	18456	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:17:14.444	18456	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:17:14.444	18456	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:17:14.444	18456	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 642
+2018-06-07 08:17:14.444	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:17:14.444	18732	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:17:14.444	18732	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:17:14.444	18732	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:17:14.444	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:17:14.444	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:17:14.444	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:17:14.444	18732	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:17:14.444	18732	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 7, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:17:14.444	18732	INFO 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2986	Successfully loaded
+2018-06-07 08:17:14.445	18732	INFO 	net	contrib/epee/include/net/abstract_tcp_server2.inl:802	Set server type to: 1 from name: RPC, prefix_name = RPC
+2018-06-07 08:17:14.445	18732	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:18085
+2018-06-07 08:17:14.445	18732	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:731	start accept
+2018-06-07 08:17:14.446	18732	DEBUG	net.p2p	contrib/epee/src/connection_basic.cpp:163	Spawned connection p2p#0 to 0.0.0.0 currently we have sockets count:1
+2018-06-07 08:17:14.446	18732	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:83	test, connection constructor set m_connection_type=1
+2018-06-07 08:17:14.446	18732	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3001	Starting wallet RPC server
+2018-06-07 08:17:14.446	18732	INFO 	net.http	contrib/epee/include/net/http_server_impl_base.h:89	Run net_service loop( 1 threads)...
+2018-06-07 08:17:14.446	[SRV_MAIN]	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:827	Run server thread name: RPC
+2018-06-07 08:17:14.446	[SRV_MAIN]	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:834	JOINING all threads
+2018-06-07 08:17:34.447	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:17:34.448	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:17:34.448	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:17:34.448	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:17:34.448	11028	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:17:34.449	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 283e94e641e6a4242a12cd06f9cce166e91d336fcebd2477616aeee8eedaa9fe
+2018-06-07 08:17:34.449	11028	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:17:34.449	11028	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:17:34.449	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <c5f145ac7b4deaeeadd2ab66116f667db43676d8269f5a8290ae685265521f9e>, height 28450, 1(1/0)ms
+2018-06-07 08:17:34.449	11028	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:17:34.449	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:17:34.450	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:17:34.450	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:17:34.450	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:17:34.450	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:17:34.450	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:17:34.450	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:17:34.450	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:17:34.450	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:17:54.451	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:17:54.452	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:17:54.452	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:17:54.452	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:17:54.453	14760	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:17:54.453	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: c5f145ac7b4deaeeadd2ab66116f667db43676d8269f5a8290ae685265521f9e
+2018-06-07 08:17:54.453	14760	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:17:54.454	14760	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:17:54.454	14760	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:17:54.454	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:17:54.455	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:17:54.455	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:17:54.455	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:17:54.455	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:17:54.455	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:17:54.455	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:17:54.455	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:17:54.455	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:18:14.456	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:18:14.457	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:18:14.457	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:18:14.457	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 642
+2018-06-07 08:18:14.457	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: c5f145ac7b4deaeeadd2ab66116f667db43676d8269f5a8290ae685265521f9e
+2018-06-07 08:18:14.458	13564	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:18:14.458	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <382fee8951e043d3ff6b195c69e8df94712e5668cdbcfbc0580929a6f01817a5>, height 28451, 1(1/0)ms
+2018-06-07 08:18:14.458	13564	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:18:14.459	13564	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:18:14.459	13564	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 642
+2018-06-07 08:18:14.459	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <4ebbcff3d4e017cd71e7f87384a8c05c85132b0f8090abcda26229ca8ce53fa2>, height 28452, 1(1/0)ms
+2018-06-07 08:18:14.459	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:18:14.459	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:18:14.459	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:18:14.460	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:18:14.460	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:18:14.460	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:18:14.460	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:18:14.460	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:18:14.460	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 2, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:18:34.460	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:18:34.461	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:18:34.461	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:18:34.461	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:18:34.462	14760	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:18:34.462	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 4ebbcff3d4e017cd71e7f87384a8c05c85132b0f8090abcda26229ca8ce53fa2
+2018-06-07 08:18:34.463	14760	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:18:34.463	14760	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:18:34.463	14760	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:18:34.463	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:18:34.464	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:18:34.464	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:18:34.464	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:18:34.464	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:18:34.464	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:18:34.464	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:18:34.464	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:18:34.464	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:18:54.465	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:18:54.465	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:18:54.466	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:18:54.466	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:18:54.466	1224	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:18:54.466	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 4ebbcff3d4e017cd71e7f87384a8c05c85132b0f8090abcda26229ca8ce53fa2
+2018-06-07 08:18:54.466	1224	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:18:54.467	1224	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:18:54.467	1224	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:18:54.467	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:18:54.467	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:18:54.467	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:18:54.467	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:18:54.467	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:18:54.467	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:18:54.467	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:18:54.467	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:18:54.467	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:19:14.468	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:19:14.468	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:19:14.469	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:19:14.469	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:19:14.469	18456	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:19:14.469	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 4ebbcff3d4e017cd71e7f87384a8c05c85132b0f8090abcda26229ca8ce53fa2
+2018-06-07 08:19:14.469	18456	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:19:14.469	18456	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:19:14.470	18456	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:19:14.470	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:19:14.470	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:19:14.470	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:19:14.470	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:19:14.470	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:19:14.470	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:19:14.470	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:19:14.470	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:19:14.470	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:19:34.471	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:19:34.472	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:19:34.472	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:19:34.472	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:19:34.473	16160	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:19:34.473	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 4ebbcff3d4e017cd71e7f87384a8c05c85132b0f8090abcda26229ca8ce53fa2
+2018-06-07 08:19:34.474	16160	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:19:34.474	16160	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:19:34.474	16160	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:19:34.474	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:19:34.475	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:19:34.475	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:19:34.476	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:19:34.476	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:19:34.476	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:19:34.476	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:19:34.476	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:19:34.476	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:19:54.476	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:19:54.477	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:19:54.477	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:19:54.477	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:19:54.478	11028	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:19:54.478	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 4ebbcff3d4e017cd71e7f87384a8c05c85132b0f8090abcda26229ca8ce53fa2
+2018-06-07 08:19:54.479	11028	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:19:54.479	11028	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:19:54.479	11028	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:19:54.479	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:19:54.480	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:19:54.480	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:19:54.480	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:19:54.480	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:19:54.480	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:19:54.480	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:19:54.480	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:19:54.480	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:20:14.481	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:20:14.481	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:20:14.481	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:20:14.482	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:20:14.482	18456	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:20:14.482	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 4ebbcff3d4e017cd71e7f87384a8c05c85132b0f8090abcda26229ca8ce53fa2
+2018-06-07 08:20:14.482	18456	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:20:14.482	18456	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:20:14.482	18456	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:20:14.483	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:20:14.483	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:20:14.483	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:20:14.483	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:20:14.483	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:20:14.483	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:20:14.483	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:20:14.483	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:20:14.483	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:20:34.483	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:20:34.484	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:20:34.484	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:20:34.484	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:20:34.484	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 4ebbcff3d4e017cd71e7f87384a8c05c85132b0f8090abcda26229ca8ce53fa2
+2018-06-07 08:20:34.484	1224	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:20:34.485	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <b41707754231494797fddedd0605dea829a34b40dd859ce1e3bfd21454e4356c>, height 28453, 1(1/0)ms
+2018-06-07 08:20:34.485	1224	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:20:34.485	1224	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:20:34.485	1224	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:20:34.485	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:20:34.485	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:20:34.486	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:20:34.486	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:20:34.486	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:20:34.486	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:20:34.486	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:20:34.486	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:20:34.486	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:20:54.486	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:20:54.486	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:20:54.486	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:20:54.486	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:20:54.486	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: b41707754231494797fddedd0605dea829a34b40dd859ce1e3bfd21454e4356c
+2018-06-07 08:20:54.486	16160	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:20:54.486	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <576347cdf097c2057441e3fcad523d961a9c73649ab9c50350cb3e2e141c697b>, height 28454, 0(0/0)ms
+2018-06-07 08:20:54.486	16160	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:20:54.486	16160	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:20:54.486	16160	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:20:54.487	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:20:54.487	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:20:54.487	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:20:54.487	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:20:54.487	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:20:54.487	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:20:54.487	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:20:54.487	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:20:54.487	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:21:14.487	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:21:14.487	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:21:14.487	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:21:14.487	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:21:14.488	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 576347cdf097c2057441e3fcad523d961a9c73649ab9c50350cb3e2e141c697b
+2018-06-07 08:21:14.488	13564	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:21:14.488	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <b1ea8863907ad2ea6eb4ef1c42d6de4177d3b21c812df23cd52ea9e73230726b>, height 28455, 0(0/0)ms
+2018-06-07 08:21:14.488	13564	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:21:14.488	13564	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:21:14.488	13564	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:21:14.488	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:21:14.488	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:21:14.489	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:21:14.489	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:21:14.489	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:21:14.489	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:21:14.489	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:21:14.489	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:21:14.489	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:21:34.489	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:21:34.489	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:21:34.489	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:21:34.489	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:21:34.489	11788	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:21:34.489	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: b1ea8863907ad2ea6eb4ef1c42d6de4177d3b21c812df23cd52ea9e73230726b
+2018-06-07 08:21:34.489	11788	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:21:34.489	11788	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:21:34.489	11788	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:21:34.489	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:21:34.490	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:21:34.490	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:21:34.490	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:21:34.490	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:21:34.490	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:21:34.490	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:21:34.490	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:21:34.490	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:21:54.491	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:21:54.491	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:21:54.491	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:21:54.491	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:21:54.491	13564	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:21:54.491	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: b1ea8863907ad2ea6eb4ef1c42d6de4177d3b21c812df23cd52ea9e73230726b
+2018-06-07 08:21:54.491	13564	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:21:54.492	13564	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:21:54.492	13564	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:21:54.492	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:21:54.492	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:21:54.492	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:21:54.492	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:21:54.492	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:21:54.492	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:21:54.492	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:21:54.492	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:21:54.492	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:22:14.492	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:22:14.492	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:22:14.493	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:22:14.493	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:22:14.493	11028	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:22:14.493	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: b1ea8863907ad2ea6eb4ef1c42d6de4177d3b21c812df23cd52ea9e73230726b
+2018-06-07 08:22:14.493	11028	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:22:14.493	11028	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:22:14.493	11028	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:22:14.493	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:22:14.493	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:22:14.493	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:22:14.493	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:22:14.493	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:22:14.493	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:22:14.493	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:22:14.493	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:22:14.493	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:22:34.494	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:22:34.494	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:22:34.494	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:22:34.494	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:22:34.494	18456	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:22:34.494	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: b1ea8863907ad2ea6eb4ef1c42d6de4177d3b21c812df23cd52ea9e73230726b
+2018-06-07 08:22:34.494	18456	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:22:34.494	18456	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:22:34.494	18456	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:22:34.495	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:22:34.495	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:22:34.495	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:22:34.495	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:22:34.495	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:22:34.495	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:22:34.495	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:22:34.495	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:22:34.495	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:22:54.496	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:22:54.496	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:22:54.496	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:22:54.496	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:22:54.496	1224	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:22:54.496	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: b1ea8863907ad2ea6eb4ef1c42d6de4177d3b21c812df23cd52ea9e73230726b
+2018-06-07 08:22:54.496	1224	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:22:54.497	1224	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:22:54.497	1224	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:22:54.497	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:22:54.497	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:22:54.497	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:22:54.497	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:22:54.497	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:22:54.497	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:22:54.497	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:22:54.497	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:22:54.497	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:23:14.497	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:23:14.497	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:23:14.497	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:23:14.497	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:23:14.497	13564	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:23:14.497	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: b1ea8863907ad2ea6eb4ef1c42d6de4177d3b21c812df23cd52ea9e73230726b
+2018-06-07 08:23:14.497	13564	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:23:14.498	13564	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:23:14.498	13564	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:23:14.498	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:23:14.498	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:23:14.498	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:23:14.498	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:23:14.498	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:23:14.498	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:23:14.498	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:23:14.498	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:23:14.498	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:23:34.498	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:23:34.498	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:23:34.498	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:23:34.498	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:23:34.498	14760	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:23:34.498	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: b1ea8863907ad2ea6eb4ef1c42d6de4177d3b21c812df23cd52ea9e73230726b
+2018-06-07 08:23:34.499	14760	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:23:34.499	14760	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:23:34.499	14760	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:23:34.499	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:23:34.500	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:23:34.500	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:23:34.500	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:23:34.500	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:23:34.500	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:23:34.500	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:23:34.500	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:23:34.500	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:23:54.501	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:23:54.501	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:23:54.501	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:23:54.501	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:23:54.501	11028	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:23:54.501	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: b1ea8863907ad2ea6eb4ef1c42d6de4177d3b21c812df23cd52ea9e73230726b
+2018-06-07 08:23:54.501	11028	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:23:54.501	11028	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:23:54.501	11028	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:23:54.501	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:23:54.502	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:23:54.502	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:23:54.502	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:23:54.502	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:23:54.502	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:23:54.502	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:23:54.502	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:23:54.502	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:30:06.818	1560	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:WARNING,net:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2018-06-07 08:30:06.818	1560	INFO 	logging	contrib/epee/src/mlog.cpp:185	New log categories: *:TRACE
+2018-06-07 08:30:06.819	1560	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:192	Setting log level = 4
+2018-06-07 08:30:06.819	1560	INFO 	wallet.wallet2	src/wallet/wallet_args.cpp:195	Logging to: C:\ProgramData\ToklioGUIWallet\wallets\toklio-wallet-rpc.log
+2018-06-07 08:30:06.819	1560	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2948	Loading wallet...
+2018-06-07 08:30:06.999	1560	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5526	ringdb path set to C:\ProgramData\.shared-ringdb
+2018-06-07 08:30:07.028	1560	WARN 	wallet.wallet2	src/wallet/wallet2.cpp:3762	Loaded wallet keys file, with public address: TK3eB1Skux4bRPWbHBHCdJc78m5h4gtCfYrtip6YwCXLAwR7wFFpmzAaRjNCTaWbjkQK1oz2mdFh1Y6VwotQmxFD2tympm7Tn
+2018-06-07 08:30:07.028	1560	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:3781	Trying to decrypt cache data
+2018-06-07 08:30:07.084	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:5634	Finding and saving rings...
+2018-06-07 08:30:07.084	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:5646	Found 0 transactions
+2018-06-07 08:30:07.098	1560	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:5691	Found and saved rings for 0 transactions
+2018-06-07 08:30:07.098	1560	DEBUG	net.http	contrib/epee/include/net/http_client.h:365	Reconnecting...
+2018-06-07 08:30:07.103	1560	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 160
+2018-06-07 08:30:07.103	1560	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:30:07.103	1560	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 127
+2018-06-07 08:30:07.103	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:30:07.104	1560	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 170
+2018-06-07 08:30:07.104	1560	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:30:07.104	1560	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 3327
+2018-06-07 08:30:07.105	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 4f184af57886b3fbe6ab9c78bf2955bc5e12aea7dc95efe956b4c159ecd69b27
+2018-06-07 08:30:07.105	17752	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:30:07.105	17752	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:30:07.105	17752	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:30:07.105	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <6f3953e9e211b27736c1d5c4d1d48d0a24096c9aa112a78837250b9c7058090e>, height 28443, 0(0/0)ms
+2018-06-07 08:30:07.105	17752	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 642
+2018-06-07 08:30:07.105	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <d77876f2f8b9e6d9ffc4932c6098cf1e46a6ad45f2695ff6097c0e68936585dd>, height 28444, 0(0/0)ms
+2018-06-07 08:30:07.105	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <c1819e0210e0712a016f26503b923a5896fc19aebc5326825e6d3195869f8248>, height 28445, 1(1/0)ms
+2018-06-07 08:30:07.105	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <97b96e61396b6583d0812a2a43eabb11d088b34dd122fe6eeb694d3a8984a442>, height 28446, 0(0/0)ms
+2018-06-07 08:30:07.106	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <91fe49da332784437df1afa9765f185e1642f2284335b9bd6f1c3461b624e1a5>, height 28447, 0(0/0)ms
+2018-06-07 08:30:07.106	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <ab0eaf1fdc8aa493f6f197d6543ac9598569ede1c23adefe92a6acf3097ef373>, height 28448, 0(0/0)ms
+2018-06-07 08:30:07.106	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <283e94e641e6a4242a12cd06f9cce166e91d336fcebd2477616aeee8eedaa9fe>, height 28449, 0(0/0)ms
+2018-06-07 08:30:07.106	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <c5f145ac7b4deaeeadd2ab66116f667db43676d8269f5a8290ae685265521f9e>, height 28450, 0(0/0)ms
+2018-06-07 08:30:07.107	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <382fee8951e043d3ff6b195c69e8df94712e5668cdbcfbc0580929a6f01817a5>, height 28451, 0(0/0)ms
+2018-06-07 08:30:07.107	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <4ebbcff3d4e017cd71e7f87384a8c05c85132b0f8090abcda26229ca8ce53fa2>, height 28452, 0(0/0)ms
+2018-06-07 08:30:07.107	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <b41707754231494797fddedd0605dea829a34b40dd859ce1e3bfd21454e4356c>, height 28453, 0(0/0)ms
+2018-06-07 08:30:07.107	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <576347cdf097c2057441e3fcad523d961a9c73649ab9c50350cb3e2e141c697b>, height 28454, 1(1/0)ms
+2018-06-07 08:30:07.107	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <b1ea8863907ad2ea6eb4ef1c42d6de4177d3b21c812df23cd52ea9e73230726b>, height 28455, 0(0/0)ms
+2018-06-07 08:30:07.107	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <27281c447884eb7e1b70d740beabda512a01ce10c69321a4fc6cf3224ec4706c>, height 28456, 0(0/0)ms
+2018-06-07 08:30:07.108	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <366c6505c4a5bbddfecd48ee8297ecfe254efb2c83c6ff036cd9ea40d9ba610a>, height 28457, 0(0/0)ms
+2018-06-07 08:30:07.108	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <c70d1e4268981e10183dc94571d23332e668b62e6c5d45c1e5db31aeb842ccf9>, height 28458, 0(0/0)ms
+2018-06-07 08:30:07.108	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <13d5e910a37112c9ddaf367545609866c3a5f20b85f4c401fb06d720b9c9dfae>, height 28459, 1(1/0)ms
+2018-06-07 08:30:07.108	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 366c6505c4a5bbddfecd48ee8297ecfe254efb2c83c6ff036cd9ea40d9ba610a
+2018-06-07 08:30:07.108	7220	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:30:07.108	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: c70d1e4268981e10183dc94571d23332e668b62e6c5d45c1e5db31aeb842ccf9
+2018-06-07 08:30:07.108	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 13d5e910a37112c9ddaf367545609866c3a5f20b85f4c401fb06d720b9c9dfae
+2018-06-07 08:30:07.108	7220	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:30:07.109	7220	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:30:07.109	7220	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 642
+2018-06-07 08:30:07.109	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:30:07.109	1560	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:30:07.109	1560	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:30:07.109	1560	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:30:07.109	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:30:07.109	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:30:07.109	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:30:07.109	1560	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:30:07.109	1560	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 17, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:30:07.109	1560	INFO 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:2986	Successfully loaded
+2018-06-07 08:30:07.109	1560	INFO 	net	contrib/epee/include/net/abstract_tcp_server2.inl:802	Set server type to: 1 from name: RPC, prefix_name = RPC
+2018-06-07 08:30:07.111	1560	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:18085
+2018-06-07 08:30:07.111	1560	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:731	start accept
+2018-06-07 08:30:07.111	1560	DEBUG	net.p2p	contrib/epee/src/connection_basic.cpp:163	Spawned connection p2p#0 to 0.0.0.0 currently we have sockets count:1
+2018-06-07 08:30:07.111	1560	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:83	test, connection constructor set m_connection_type=1
+2018-06-07 08:30:07.111	1560	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3001	Starting wallet RPC server
+2018-06-07 08:30:07.112	1560	INFO 	net.http	contrib/epee/include/net/http_server_impl_base.h:89	Run net_service loop( 1 threads)...
+2018-06-07 08:30:07.112	[SRV_MAIN]	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:827	Run server thread name: RPC
+2018-06-07 08:30:07.112	[SRV_MAIN]	DEBUG	net	contrib/epee/include/net/abstract_tcp_server2.inl:834	JOINING all threads
+2018-06-07 08:30:27.112	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:30:27.112	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:30:27.112	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:30:27.112	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:30:27.112	14700	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:30:27.112	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 13d5e910a37112c9ddaf367545609866c3a5f20b85f4c401fb06d720b9c9dfae
+2018-06-07 08:30:27.112	14700	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:30:27.113	14700	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:30:27.113	14700	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:30:27.113	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:30:27.113	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:30:27.113	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:30:27.113	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:30:27.113	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:30:27.113	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:30:27.113	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:30:27.113	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:30:27.113	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:30:47.113	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:30:47.113	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:30:47.113	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:30:47.113	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:30:47.113	17752	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:30:47.113	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 13d5e910a37112c9ddaf367545609866c3a5f20b85f4c401fb06d720b9c9dfae
+2018-06-07 08:30:47.113	17752	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:30:47.113	17752	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:30:47.113	17752	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:30:47.113	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:30:47.114	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:30:47.114	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:30:47.114	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:30:47.114	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:30:47.114	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:30:47.114	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:30:47.114	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:30:47.114	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:31:07.115	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:31:07.115	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:31:07.115	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:31:07.115	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:31:07.116	8468	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:31:07.116	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 13d5e910a37112c9ddaf367545609866c3a5f20b85f4c401fb06d720b9c9dfae
+2018-06-07 08:31:07.116	8468	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:31:07.116	8468	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:31:07.116	8468	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:31:07.116	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:31:07.117	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:31:07.117	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:31:07.117	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:31:07.117	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:31:07.117	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:31:07.117	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:31:07.117	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:31:07.117	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:31:27.117	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:31:27.117	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:31:27.117	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:31:27.117	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:31:27.117	7220	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:31:27.117	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 13d5e910a37112c9ddaf367545609866c3a5f20b85f4c401fb06d720b9c9dfae
+2018-06-07 08:31:27.117	7220	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:31:27.118	7220	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:31:27.118	7220	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:31:27.118	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:31:27.118	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:31:27.118	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:31:27.118	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:31:27.118	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:31:27.118	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:31:27.118	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:31:27.118	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:31:27.118	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:31:47.119	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:31:47.119	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:31:47.119	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:31:47.119	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:31:47.120	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 13d5e910a37112c9ddaf367545609866c3a5f20b85f4c401fb06d720b9c9dfae
+2018-06-07 08:31:47.120	18464	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:31:47.120	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <5c14ba40257740390b65db21b6da170defcd42a4e01445ab70d2125c9ecfa78a>, height 28460, 0(0/0)ms
+2018-06-07 08:31:47.120	18464	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:31:47.120	18464	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:31:47.120	18464	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:31:47.120	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:31:47.121	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:31:47.121	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:31:47.121	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:31:47.121	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:31:47.121	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:31:47.121	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:31:47.121	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:31:47.121	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:32:07.121	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:32:07.122	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:32:07.122	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:32:07.122	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:32:07.122	16288	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:32:07.122	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 5c14ba40257740390b65db21b6da170defcd42a4e01445ab70d2125c9ecfa78a
+2018-06-07 08:32:07.123	16288	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:32:07.123	16288	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:32:07.123	16288	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:32:07.123	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:32:07.123	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:32:07.123	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:32:07.124	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:32:07.124	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:32:07.124	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:32:07.124	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:32:07.124	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:32:07.124	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:32:27.125	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:32:27.125	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:32:27.125	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:32:27.125	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:32:27.125	8468	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:32:27.125	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 5c14ba40257740390b65db21b6da170defcd42a4e01445ab70d2125c9ecfa78a
+2018-06-07 08:32:27.125	8468	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:32:27.125	8468	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:32:27.125	8468	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:32:27.125	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:32:27.126	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:32:27.126	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:32:27.126	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:32:27.126	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:32:27.126	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:32:27.126	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:32:27.126	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:32:27.126	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:32:47.127	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:32:47.127	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:32:47.127	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:32:47.127	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:32:47.127	2892	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:32:47.127	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 5c14ba40257740390b65db21b6da170defcd42a4e01445ab70d2125c9ecfa78a
+2018-06-07 08:32:47.127	2892	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:32:47.127	2892	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:32:47.128	2892	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:32:47.128	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:32:47.128	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:32:47.128	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:32:47.128	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:32:47.128	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:32:47.128	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:32:47.128	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:32:47.128	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:32:47.128	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:33:07.129	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:33:07.129	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:33:07.129	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:33:07.130	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:33:07.130	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 5c14ba40257740390b65db21b6da170defcd42a4e01445ab70d2125c9ecfa78a
+2018-06-07 08:33:07.130	17752	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:33:07.130	17752	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:33:07.131	17752	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:33:07.131	17752	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:33:07.131	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:33:07.131	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:33:07.131	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:33:07.131	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:33:07.131	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:33:07.131	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:33:07.131	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:33:07.131	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:33:07.132	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:33:27.132	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:33:27.132	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:33:27.132	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:33:27.132	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:33:27.132	8468	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:33:27.132	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 5c14ba40257740390b65db21b6da170defcd42a4e01445ab70d2125c9ecfa78a
+2018-06-07 08:33:27.133	8468	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:33:27.133	8468	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:33:27.133	8468	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:33:27.133	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:33:27.133	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:33:27.133	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:33:27.133	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:33:27.133	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:33:27.133	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:33:27.133	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:33:27.133	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:33:27.133	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:33:47.134	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:33:47.135	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:33:47.135	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:33:47.135	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:33:47.136	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 5c14ba40257740390b65db21b6da170defcd42a4e01445ab70d2125c9ecfa78a
+2018-06-07 08:33:47.136	7220	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:33:47.136	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <6b7cc8be98af66f8e5617d932415873a0ddcb8acec5cc20de759ec479a3de9ec>, height 28461, 1(1/0)ms
+2018-06-07 08:33:47.137	7220	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:33:47.137	7220	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:33:47.137	7220	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:33:47.137	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:33:47.138	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:33:47.138	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:33:47.138	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:33:47.138	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:33:47.138	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:33:47.138	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:33:47.138	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:33:47.138	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:34:07.138	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:34:07.138	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:34:07.138	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:34:07.138	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:34:07.138	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 6b7cc8be98af66f8e5617d932415873a0ddcb8acec5cc20de759ec479a3de9ec
+2018-06-07 08:34:07.138	14700	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:34:07.139	14700	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:34:07.139	14700	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:34:07.139	14700	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:34:07.139	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:34:07.139	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:34:07.139	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:34:07.139	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:34:07.139	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:34:07.139	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:34:07.139	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:34:07.139	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:34:07.139	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:34:27.139	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:34:27.139	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:34:27.139	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:34:27.139	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:34:27.139	8468	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:34:27.139	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 6b7cc8be98af66f8e5617d932415873a0ddcb8acec5cc20de759ec479a3de9ec
+2018-06-07 08:34:27.139	8468	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:34:27.139	8468	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:34:27.139	8468	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:34:27.140	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:34:27.140	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:34:27.140	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:34:27.140	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:34:27.140	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:34:27.140	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:34:27.140	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:34:27.140	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:34:27.140	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:34:47.141	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:34:47.141	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:34:47.141	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:34:47.141	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:34:47.141	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 6b7cc8be98af66f8e5617d932415873a0ddcb8acec5cc20de759ec479a3de9ec
+2018-06-07 08:34:47.141	19412	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:34:47.141	19412	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:34:47.141	19412	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:34:47.141	19412	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:34:47.141	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:34:47.142	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:34:47.142	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:34:47.142	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:34:47.142	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:34:47.142	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:34:47.142	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:34:47.142	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:34:47.142	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:35:07.143	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:35:07.143	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:35:07.143	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:35:07.144	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:35:07.144	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 6b7cc8be98af66f8e5617d932415873a0ddcb8acec5cc20de759ec479a3de9ec
+2018-06-07 08:35:07.144	14700	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:35:07.144	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1594	Processed block: <05c8f31d8b07996871b7fb17de6199efdd0dcb5d756cb93633e66fe573df7957>, height 28462, 0(0/0)ms
+2018-06-07 08:35:07.144	14700	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:35:07.144	14700	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:35:07.144	14700	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 463
+2018-06-07 08:35:07.145	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:35:07.145	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:35:07.145	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:35:07.145	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:35:07.145	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:35:07.145	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:35:07.145	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:35:07.145	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:35:07.145	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 1, balance (all accounts): 0.000000000000, unlocked: 0.000000000000
+2018-06-07 08:35:27.145	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:35:27.145	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:35:27.145	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:35:27.145	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:35:27.145	7220	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1670	Daemon is recent enough, asking for pruned blocks
+2018-06-07 08:35:27.145	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1774	Block is already in blockchain: 05c8f31d8b07996871b7fb17de6199efdd0dcb5d756cb93633e66fe573df7957
+2018-06-07 08:35:27.146	7220	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 169
+2018-06-07 08:35:27.146	7220	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:35:27.146	7220	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 284
+2018-06-07 08:35:27.146	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1887	update_pool_state start
+2018-06-07 08:35:27.146	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 159
+2018-06-07 08:35:27.146	[RPC0]	TRACE	net.http	contrib/epee/include/net/http_client.h:758	http_stream_filter::parse_cached_header(*)
+2018-06-07 08:35:27.146	[RPC0]	TRACE	net	contrib/epee/include/net/net_helper.h:403	READ ENDS: Success. bytes_tr: 45
+2018-06-07 08:35:27.146	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1898	update_pool_state got pool
+2018-06-07 08:35:27.146	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1955	update_pool_state done first loop
+2018-06-07 08:35:27.146	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:1964	update_pool_state done second loop
+2018-06-07 08:35:27.146	[RPC0]	DEBUG	wallet.wallet2	src/wallet/wallet2.cpp:2101	update_pool_state end
+2018-06-07 08:35:27.146	[RPC0]	INFO 	wallet.wallet2	src/wallet/wallet2.cpp:2333	Refresh done, blocks received: 0, balance (all accounts): 0.000000000000, unlocked: 0.000000000000

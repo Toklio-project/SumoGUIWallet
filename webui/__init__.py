@@ -110,7 +110,7 @@ class BaseWebUI(QMainWindow):
         self.view.setZoomFactor(1)
         
         self.setWindowTitle(APP_NAME)
-        self.icon = self._getQIcon('sumokoin_icon_64.png')
+        self.icon = self._getQIcon('toklio_icon_64.png')
         self.setWindowIcon(self.icon)
         
         self.setCentralWidget(self.view)
@@ -185,11 +185,11 @@ class MainWebUI(BaseWebUI):
         
         # Setup the system tray icon
         if sys.platform == 'darwin':
-            tray_icon = 'sumokoin_16x16_mac.png'
+            tray_icon = 'toklio_16x16_mac.png'
         elif sys.platform == "win32":
-            tray_icon = 'sumokoin_16x16.png'
+            tray_icon = 'toklio_16x16.png'
         else:
-            tray_icon = 'sumokoin_32x32_ubuntu.png'
+            tray_icon = 'toklio_32x32_ubuntu.png'
         
         self.trayIcon = QSystemTrayIcon(self._getQIcon(tray_icon))
         self.trayIcon.setToolTip(tray_icon_tooltip)
@@ -265,7 +265,7 @@ class MainWebUI(BaseWebUI):
         
         self.start_deamon()
         self.daemon_rpc_request = DaemonRPCRequest(self.app)
-         
+        
         self.timer = QTimer(self)
         self.timer.timeout.connect(self._update_daemon_status)
         self.timer.start(10000)
@@ -275,13 +275,12 @@ class MainWebUI(BaseWebUI):
         
     
     def start_deamon(self):
-        #start sumokoind daemon
+        #start tokliod daemon
         self.sumokoind_daemon_manager = SumokoindManager(self.app.property("ResPath"), 
                                             self.app_settings.settings['daemon']['log_level'], 
                                             self.app_settings.settings['daemon']['block_sync_size'])
         
         self.sumokoind_daemon_manager.start()
-        
         
     def show_wallet(self):
         QTimer.singleShot(1000, self.update_wallet_info)
@@ -309,6 +308,7 @@ class MainWebUI(BaseWebUI):
         while True:
             self.hub.app_process_events()
             sumokoind_info = self.daemon_rpc_request.get_info()
+
             if sumokoind_info['status'] == "OK":
                 self.wallet_rpc_manager = WalletRPCManager(self.app.property("ResPath"), \
                                                 self.wallet_info.wallet_filepath, \
@@ -320,14 +320,20 @@ class MainWebUI(BaseWebUI):
     def _update_daemon_status(self):
         target_height = 0
         sumokoind_info = self.daemon_rpc_request.get_info()
+
         if sumokoind_info['status'] == "OK":
             status = "Connected"
             self.current_height = int(sumokoind_info['height'])
             target_height = int(sumokoind_info['target_height'])
+            
             if target_height == 0 or target_height < self.current_height:
                 target_height = self.current_height
             if self.target_height < target_height:
                 self.target_height = target_height;
+
+            if target_height == 0 :
+                target_height = int(sumokoind_info['height']);
+     
         else:
             status = sumokoind_info['status']
         
@@ -347,6 +353,10 @@ class MainWebUI(BaseWebUI):
     
     
     def update_wallet_info(self):
+        log("UPDATE INFOS WALLET", LEVEL_DEBUG)
+        log("UPDATE INFOS WALLET", LEVEL_DEBUG)
+        log("UPDATE INFOS WALLET", LEVEL_DEBUG)
+
         if not self.wallet_rpc_manager.is_ready():
             return
         
@@ -536,7 +546,7 @@ class MainWebUI(BaseWebUI):
                     self.show_new_wallet_ui()
                 return
             else:
-                self.run_wallet_rpc(wallet_password, 2)
+                self.run_wallet_rpc(wallet_password, 4)
                 while not self.wallet_rpc_manager.is_ready():
                     self.hub.app_process_events(0.5)
                     if self.wallet_rpc_manager.is_invalid_password():

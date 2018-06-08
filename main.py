@@ -67,8 +67,8 @@ def main():
     # Application setup
     
     app = QSingleApplication(sys.argv)
-    app.setOrganizationName('Sumokoin')
-    app.setOrganizationDomain('www.sumokoin.org')
+    app.setOrganizationName('Toklio')
+    app.setOrganizationDomain('www.tokl.io')
     app.setApplicationName(APP_NAME)
     app.setProperty("AppPath", app_path)
     app.setProperty("ResPath", resources_path)

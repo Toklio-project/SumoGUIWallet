@@ -32,8 +32,8 @@ html ="""
                 var seed = $('#seed').val();
                 var restore_height = $('#restore_height_txt').val();
                 seed = replaceAll(seed, "\\n", " ");
-                if(seed.length == 0 || seed.split(" ").length != 26)
-                    alert("Please paste 26 mnemonic seed words to above box", "Seed words required!");
+                if(seed.length == 0 || seed.split(" ").length != 25)
+                    alert("Please paste 25 mnemonic seed words to above box", "Seed words required!");
                 else{
                     var h =  !isNaN(parseInt(restore_height)) ? parseInt(restore_height) : 0;
                     if(h < 0) h = 0;

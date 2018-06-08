@@ -508,7 +508,7 @@ html ="""
                     if(tx.hasOwnProperty('destinations')){
                         var destinations = tx['destinations'];
                         for(var i=0; i < destinations.length; i++ ){
-                            dest_html += '<li>Amount: <span class="tx-list tx-amount tx-' + tx['status'] + '">' + printMoney(destinations[i]['amount']/1000000000) + "</span>Address: <strong>" + destinations[i]['address'] + "</strong></li>";
+                            dest_html += '<li>Amount: <span class="tx-list tx-amount tx-' + tx['status'] + '">' + printMoney(destinations[i]['amount']/1000000000000) + "</span>Address: <strong>" + destinations[i]['address'] + "</strong></li>";
                         }
                     }
                     
@@ -521,8 +521,8 @@ html ="""
                                                             'tx_fa_icon': tx['direction'] == "in" ? "mail-forward" : "reply",
                                                             'tx_id': tx['txid'],
                                                             'tx_payment_id': tx['payment_id'], 
-                                                            'tx_amount': printMoney(tx['amount']/1000000000.),
-                                                            'tx_fee': printMoney(tx['fee']/1000000000.),
+                                                            'tx_amount': printMoney(tx['amount']/1000000000000.),
+                                                            'tx_fee': printMoney(tx['fee']/1000000000000.),
                                                             'tx_fee_hide': tx['fee'] > 0 ? '' : 'tx-fee-hide',
                                                             'tx_date': dateConverter(tx['timestamp']),
                                                             'tx_time': timeConverter(tx['timestamp']),
@@ -560,7 +560,7 @@ html ="""
                             'tx_id': tx['txid'],
                             'tx_id_short': tx['txid'].substring(0, 26) + "...",
                             'tx_payment_id': tx['payment_id'].substring(0, 16),
-                            'tx_amount': printMoney(tx['amount']/1000000000.),
+                            'tx_amount': printMoney(tx['amount']/1000000000000.),
                             'tx_height': tx['height'],
                             'cls_in_out': tx['status']
                         });
@@ -609,7 +609,6 @@ html ="""
                 }, 1000);
                 
                 app_hub.on_update_wallet_loading_height_event.connect(function(height, target_height){
-                    //console.log(height);
                     if(height < target_height){
                         if($('#app_modal_progress').is(':visible')){
                             msg = "Processing block# " + height;
@@ -708,8 +707,8 @@ html ="""
                                                             'tx_fa_icon': tx['direction'] == "in" ? "mail-forward" : "reply",
                                                             'tx_id': tx['txid'],
                                                             'tx_payment_id': tx['payment_id'], 
-                                                            'tx_amount': printMoney(tx['amount']/1000000000.),
-                                                            'tx_fee': printMoney(tx['fee']/1000000000.),
+                                                            'tx_amount': printMoney(tx['amount']/1000000000000.),
+                                                            'tx_fee': printMoney(tx['fee']/1000000000000.),
                                                             'tx_fee_hide': tx['fee'] > 0 ? '' : 'tx-fee-hide',
                                                             'tx_date': dateConverter(tx['timestamp']),
                                                             'tx_time': timeConverter(tx['timestamp']),
@@ -857,8 +856,8 @@ html ="""
                     errors.push("Address is required!");
                     $('#send_address').parent().addClass('has-error');
                 }
-                else if(!((address.substr(0, 4) == "Sumo" && address.length == 99) || 
-                    (address.substr(0, 4) == "Sumi"  && address.length == 110) || 
+                else if(!((address.substr(0, 2) == "TK" && address.length == 97) || 
+                    (address.substr(0, 3) == "TiK"  && address.length == 98) || 
                     (address.substr(0, 4) == "Subo"  && address.length == 98)))
                 {
                     errors.push("Address is not valid!");
@@ -1181,8 +1180,8 @@ html ="""
                                 <h5><i class="fa fa-fw fa-unlock"></i> Unlocked Balance:</h5>
                             </div>
                             <div class="col-xs-6" style="text-align:right">
-                                <h5><span id="balance">0.000000000</span> <small>SUMO</small> <span class="syncing"> (syncing)</span></h5>
-                                <h5><span id="unlocked_balance">0.000000000</span> <small>SUMO</small> <span class="syncing"> (syncing)</span></h5>
+                                <h5><span id="balance">0.000000000</span> <small>TOKL</small> <span class="syncing"> (syncing)</span></h5>
+                                <h5><span id="unlocked_balance">0.000000000</span> <small>TOKL</small> <span class="syncing"> (syncing)</span></h5>
                             </div>
                             <div class="col-xs-12" style="margin-top: 10px">
                                 <button id="btn_rescan_spent" type="button" class="btn btn-primary" onclick="rescan_spent()" disabled><i class="fa fa-sort-amount-desc"></i> Rescan Spent</button>

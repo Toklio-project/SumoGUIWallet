@@ -3,7 +3,7 @@
 ## Copyright (c) 2017, The Sumokoin Project (www.sumokoin.org)
 
 '''
-Process managers for sumokoind, sumo-wallet-cli and sumo-wallet-rpc
+Process managers for tokliod, toklio-wallet-cli and toklio-wallet-rpc
 '''
 
 from __future__ import print_function
@@ -43,6 +43,7 @@ class ProcessManager(Thread):
             self.proc.stdout.close()
             
     def send_command(self, cmd):
+   
         self.proc.stdin.write( (cmd + u"\n").encode("utf-8") )
         sleep(0.1)
     
@@ -76,8 +77,8 @@ class ProcessManager(Thread):
 
 class SumokoindManager(ProcessManager):
     def __init__(self, resources_path, log_level=0, block_sync_size=10):
-        proc_args = u'%s/bin/sumokoind --log-level %d --block-sync-size %d' % (resources_path, log_level, block_sync_size)
-        ProcessManager.__init__(self, proc_args, "sumokoind")
+        proc_args = u'%s/bin/tokliod --log-level %d --block-sync-size %d' % (resources_path, log_level, block_sync_size)
+        ProcessManager.__init__(self, proc_args, "tokliod")
         self.synced = Event()
         self.stopped = Event()
         
@@ -104,12 +105,12 @@ class WalletCliManager(ProcessManager):
     
     def __init__(self, resources_path, wallet_file_path, wallet_log_path, restore_wallet=False, restore_height=0):
         if not restore_wallet:
-            wallet_args = u'%s/bin/sumo-wallet-cli --generate-new-wallet=%s --log-file=%s' \
+            wallet_args = u'%s/bin/toklio-wallet-cli --generate-new-wallet=%s --log-file=%s --create-address-file' \
                                                 % (resources_path, wallet_file_path, wallet_log_path)
         else:
-            wallet_args = u'%s/bin/sumo-wallet-cli --log-file=%s --restore-deterministic-wallet --restore-height %d' \
+            wallet_args = u'%s/bin/toklio-wallet-cli --log-file=%s --restore-deterministic-wallet --restore-height %d  --mnemonic-language 1 --create-address-file' \
                                                 % (resources_path, wallet_log_path, restore_height)
-        ProcessManager.__init__(self, wallet_args, "sumo-wallet-cli")
+        ProcessManager.__init__(self, wallet_args, "toklio-wallet-cli")
         self.ready = Event()
         self.last_error = ""
         self.block_height = 0
@@ -121,6 +122,9 @@ class WalletCliManager(ProcessManager):
         err_str = "Error:"
         for line in iter(self.proc.stdout.readline, b''):
             m_height = height_regex.search(line)
+            log("[%s]>>> %s" % (self.proc_name, line.rstrip()), LEVEL_INFO, self.proc_name)
+            log(m_height, LEVEL_DEBUG)
+            log("[%s]>>> %s" % (self.proc_name, line.rstrip()), LEVEL_INFO, self.proc_name)
             if m_height: 
                 self.block_height = int(m_height.group(1))
                 self.top_height = int(m_height.group(2))
@@ -153,14 +157,15 @@ class WalletCliManager(ProcessManager):
 
 
 class WalletRPCManager(ProcessManager):
-    def __init__(self, resources_path, wallet_file_path, wallet_password, app, log_level=1):
+    def __init__(self, resources_path, wallet_file_path, wallet_password, app, log_level=4):
         self.user_agent = str(uuid4().hex)
-        wallet_log_path = os.path.join(os.path.dirname(wallet_file_path), "sumo-wallet-rpc.log")
-        wallet_rpc_args = u'%s/bin/sumo-wallet-rpc --wallet-file %s --log-file %s --rpc-bind-port 19736 --user-agent %s --log-level %d' \
-                                            % (resources_path, wallet_file_path, wallet_log_path, self.user_agent, log_level)
-                                                                                
-        ProcessManager.__init__(self, wallet_rpc_args, "sumo-wallet-rpc")
+        wallet_log_path = os.path.join(os.path.dirname(wallet_file_path), "toklio-wallet-rpc.log")
+        wallet_rpc_args = u'%s/bin/toklio-wallet-rpc --wallet-file %s --log-file %s --rpc-bind-port 18085 --log-level %d --trusted-daemon --prompt-for-password --disable-rpc-login' \
+                                            % (resources_path, wallet_file_path, wallet_log_path, log_level)
+                                                        #--daemon-host 127.0.0.1 --daemon-port 18081 --trusted-daemon                        
+        ProcessManager.__init__(self, wallet_rpc_args, "toklio-wallet-rpc")
         sleep(0.2)
+        
         self.send_command(wallet_password)
         
         self.rpc_request = WalletRPCRequest(app, self.user_agent)
@@ -169,25 +174,27 @@ class WalletRPCManager(ProcessManager):
         self.block_height = 0
         self.is_password_invalid = Event()
         self.last_log_lines = []
+        self.last_error = False
     
     def run(self):
-        is_ready_str = "Starting wallet rpc server"
+        is_ready_str = "Starting wallet RPC server"
         err_str = "ERROR"
         invalid_password = "invalid password"
         height_regex = re.compile(r"Processed block: \<([a-z0-9]+)\>, height (\d+)")
         height_regex2 = re.compile(r"Skipped block by height: (\d+)")
         height_regex3 = re.compile(r"Skipped block by timestamp, height: (\d+)")
-        
         for line in iter(self.proc.stdout.readline, b''):
+            
             m_height = height_regex.search(line)
-            if m_height: self.block_height = m_height.group(2)
+            if m_height: 
+                self.block_height = m_height.group(2)
             if not m_height:
                 m_height = height_regex2.search(line)
                 if m_height: self.block_height = m_height.group(1)
             if not m_height:
                 m_height = height_regex3.search(line)
                 if m_height: self.block_height = m_height.group(1)
-                
+
             if not self._ready and is_ready_str in line:
                 self._ready = True
                 log(line.rstrip(), LEVEL_INFO, self.proc_name)
@@ -204,11 +211,10 @@ class WalletRPCManager(ProcessManager):
             if len(self.last_log_lines) > 1:
                 self.last_log_lines.pop(0)
             self.last_log_lines.append(line.rstrip())
-            
         
         if not self.proc.stdout.closed:
             self.proc.stdout.close()
-            
+        
     def is_ready(self):
         return self._ready
     

@@ -13,19 +13,19 @@ import logging
 
 from utils.common import getHomeDir, makeDir
 
-USER_AGENT = "Sumokoin GUI Wallet"
-APP_NAME = "Sumokoin GUI Wallet"
+USER_AGENT = "Toklio GUI Wallet"
+APP_NAME = "Toklio GUI Wallet"
 VERSION = [0, 0, 4]
 
 
-_data_dir = makeDir(os.path.join(getHomeDir(), 'SumokoinGUIWallet'))
+_data_dir = makeDir(os.path.join(getHomeDir(), 'ToklioGUIWallet'))
 DATA_DIR = _data_dir
 
 log_file  = os.path.join(DATA_DIR, 'logs', 'app.log') # default logging file
 log_level = logging.DEBUG # logging level
 
-seed_languages = [("0", "English"), 
-                  ("1", "Spanish"), 
+seed_languages = [("0", "Deutsh"), 
+                  ("1", "English"), 
                   ("2", "German"), 
                   ("3", "Italian"), 
                   ("4", "Portuguese"),
@@ -34,4 +34,4 @@ seed_languages = [("0", "English"),
                 ]
 
 # COIN - number of smallest units in one coin
-COIN = 1000000000.0
+COIN = 1000000000000.0

@@ -117,7 +117,9 @@ class Hub(QObject):
         
         counter = 0
         block_height = 0
+        log('---------------------- sssss ---------------------', LEVEL_INFO)
         while not self.ui.wallet_rpc_manager.is_ready():
+            log('---------------------- RPC NOT READY ---------------------', LEVEL_INFO)
             self.app_process_events(0.5)
             h = int(self.ui.wallet_rpc_manager.block_height)
             if h >  block_height:
@@ -147,6 +149,7 @@ class Hub(QObject):
                         Try to restore it with mnemonic seed instead.""")
                 self.ui.reset_wallet()
                 return False
+        log('---------------------- HELLO RPC READY ---------------------', LEVEL_INFO)
         self.ui.wallet_info.wallet_password = hashlib.sha256(wallet_password).hexdigest()
         self._show_wallet_info()
         self.ui.wallet_info.save()
@@ -205,7 +208,7 @@ class Hub(QObject):
                 
             if has_password:
                 if not mnemonic_seed: # i.e. create new wallet
-                    mnemonic_seed_language = "0" # english
+                    mnemonic_seed_language = "1" # english
                     seed_language_list = [sl[1] for sl in seed_languages]
                     lang, ok = QInputDialog.getItem(self.new_wallet_ui, "Mnemonic Seed Language", 
                                 "Select a language for wallet mnemonic seed:", 
@@ -225,7 +228,7 @@ class Hub(QObject):
                                         if mnemonic_seed else "Creating wallet...")
                 self.app_process_events()
                 wallet_filepath = os.path.join(wallet_dir_path, str(uuid.uuid4().hex) + '.bin')
-                wallet_log_path = os.path.join(wallet_dir_path, 'sumo-wallet-cli.log')
+                wallet_log_path = os.path.join(wallet_dir_path, 'toklio-wallet-cli.log')
                 resources_path = self.app.property("ResPath")
                 if not mnemonic_seed: # i.e. create new wallet
                     self.wallet_cli_manager = WalletCliManager(resources_path, \
@@ -290,10 +293,12 @@ class Hub(QObject):
             self.ui.run_wallet_rpc(wallet_password, 1)
             counter = 0
             block_height = 0
-            
+            log('--------------------- TRY TO GET INFO -----------------',LEVEL_INFO)
             while not self.ui.wallet_rpc_manager.is_ready():
                 self.app_process_events(1)
                 h = int(self.ui.wallet_rpc_manager.block_height)
+                log(h,LEVEL_INFO)
+                log(block_height,LEVEL_INFO)
                 if h >  block_height:
                     self.on_new_wallet_update_processed_block_height_event.emit(h, self.ui.target_height)
                     counter = 0
@@ -314,6 +319,7 @@ class Hub(QObject):
                     self.ui.reset_wallet(delete_files=False)
                     return
          
+            log('--------------------- GET INFO -----------------',LEVEL_INFO)
             self._show_wallet_info()
             self.ui.wallet_info.save()
         else:
@@ -553,6 +559,7 @@ class Hub(QObject):
         tx_start_index = (current_page - 1)*txs_per_page
         all_txs = self.ui.wallet_info.wallet_pending_transfers + self.ui.wallet_info.wallet_transfers
         txs = all_txs[tx_start_index:tx_start_index + txs_per_page]
+        log(txs,LEVEL_INFO)
         for tx in txs:
             tx["confirmation"] = self.ui.target_height - tx["height"] \
                 if self.ui.target_height > tx["height"] and tx["height"] > 0 else 0
@@ -643,7 +650,7 @@ class Hub(QObject):
     @Slot()
     def restart_daemon(self):
         self.app_process_events(1)
-        self.ui.sumokoind_daemon_manager.stop()
+        self.ui.tokliod_daemon_manager.stop()
         self.ui.start_deamon()
         self.app_process_events(5)
         self.on_restart_daemon_completed_event.emit()
@@ -651,7 +658,7 @@ class Hub(QObject):
     
     @Slot()
     def view_daemon_log(self):
-        log_file = os.path.join(DATA_DIR, 'logs', "sumokoind.log")
+        log_file = os.path.join(DATA_DIR, 'logs', "tokliod.log")
         log_dialog = LogViewer(parent=self.ui, log_file=log_file)
         log_dialog.load_log()
     
@@ -675,7 +682,12 @@ class Hub(QObject):
             return
         
         h = int(self.ui.wallet_rpc_manager.block_height)
+        #log('--------------------------',LEVEL_INFO)
+        #log(self.ui.target_height,LEVEL_INFO)
+        #log(h,LEVEL_INFO)
+        #log(self.current_block_height,LEVEL_INFO)
         if h > self.current_block_height:
+            
             self.on_update_wallet_loading_height_event.emit(h, self.ui.target_height)
             self.current_block_height = h
         
@@ -725,7 +737,7 @@ class Hub(QObject):
         balance, unlocked_balance, _ = wallet_rpc_request.get_balance()
         wallet_info['balance'] = print_money(balance)
         wallet_info['unlocked_balance'] = print_money(unlocked_balance)
-        
+        log(wallet_info, LEVEL_INFO)
         self.on_new_wallet_show_info_event.emit(json.dumps(wallet_info))
     
     

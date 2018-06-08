@@ -6,7 +6,8 @@
 /tags
 /log
 /logs
-
+/Resources/bin
+setup.py
 # vim swap files
 *.swp
 *.swo
